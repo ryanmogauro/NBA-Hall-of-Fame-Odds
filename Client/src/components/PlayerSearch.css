@@ -1,0 +1,38 @@
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .player-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .player-item {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .player-item:hover {
+    background-color: #e0e0e0;
+  }
+
+  

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "styled-components": "^6.1.13"
+  }
+}

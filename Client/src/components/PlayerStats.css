@@ -1,0 +1,73 @@
+.player-stats-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .player-stats {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-name {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .stat-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .stat-value {
+    float: right;
+    color: #007bff;
+  }
+  
+  .hof-probability {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .probability-bar {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .probability-fill {
+    background-color: #4caf50;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .probability-value {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+  }
